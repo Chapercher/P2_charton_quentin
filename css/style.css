@@ -661,6 +661,9 @@ footer
     .filter_itemTxt{
         font-size: 10px;
     }
+    .filter_item{
+        margin-right: 16px;
+    }
 
     /* HEBERGEMENT */
 
