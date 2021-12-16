@@ -655,6 +655,9 @@ footer
     }
 
     /* SEARCH */
+    .filter_itemTitle{
+        width: 100%;
+    }
     .filter_itemTxt{
         font-size: 10px;
     }
