@@ -508,16 +508,6 @@ a
 {
     margin-bottom: 40px;
 }
-.activity_Card5
-{
-    grid-row: 2/2;
-    grid-column: 2/3;
-}
-.activity_Card6
-{
-    grid-row: 2/2;
-    grid-column: 4/6;
-}
 /* FOOTER */
 footer
 {
@@ -573,7 +563,9 @@ footer
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 192px 192px 192px;
     }
-
+    .activity_card--small {
+        height: 100%;
+    }
 }
 /*tablet*/
 @media (min-width: 768px) and (max-width: 992px) {
@@ -592,41 +584,33 @@ footer
     }
     /* ACTIVITIES */
     .activities{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .activity_title{
         grid-row: 1/1;
-        grid-column: 1/3;
+        grid-column: 1/2;
         display: unset;
+    }
+    .activity_Card--parent{
+        flex-flow: row;
+        gap: 40px;
+    }
+    .activity_Card4--parent {
+        grid-row: 4/5;
+        grid-column: 1/3;
+    }
+    .activity_Card2--parent {
+        grid-row: 3/4;
+        grid-column: 1/3;
     }
     .activity_Card1
     {
-        grid-row: 2/2;
-        grid-column: 1/3;
-    }
-    .activity_Card2
-    {
-        grid-row: unset;
-        grid-column: 2/3;
+        grid-row: 2/3;
+        grid-column: 1/2;
     }
     .activity_Card3
     {
-        grid-row: unset;
-        grid-column: 1/2;
-    }
-    .activity_Card4
-    {
-        grid-row: unset;
-        grid-column: 2/3;
-    }
-    .activity_Card5
-    {
-        grid-row: unset;
-        grid-column: 1/2;
-    }
-    .activity_Card6
-    {
-        grid-row: unset;
+        grid-row: 2/3;
         grid-column: 2/3;
     }
 }
@@ -671,6 +655,7 @@ footer
     .filter_itemTxt{
         font-size: 10px;
     }
+
     /* HEBERGEMENT */
 
     .block_page>section.city{
@@ -704,7 +689,11 @@ footer
     }
     .activities{
         grid-template-columns: repeat(1,1fr);
-        grid-template-rows: auto 250px 250px 250px;
+        grid-template-rows: auto 250px 540px 540px 250px;
+    }
+
+    .activity_Card--parent>a{
+        height: 50%;
     }
     .activity_card--small
     {
@@ -712,32 +701,22 @@ footer
     }
     .activity_Card1
     {
-        grid-row: unset;
+        grid-row: 2/3;
         grid-column: 1/2;
     }
     .activity_Card2--parent
     {
-        grid-row: unset;
+        grid-row: 3/4;
         grid-column: 1/2;
     }
     .activity_Card3
     {
-        grid-row: unset;
+        grid-row: 5/6;
         grid-column: 1/2;
     }
     .activity_Card4--parent
     {
-        grid-row: unset;
-        grid-column: 1/2;
-    }
-    .activity_Card5
-    {
-        grid-row: unset;
-        grid-column: 1/2;
-    }
-    .activity_Card6
-    {
-        grid-row: unset;
+        grid-row: 4/5;
         grid-column: 1/2;
     }
 }
