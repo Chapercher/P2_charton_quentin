@@ -46,7 +46,7 @@
       <workItem from="1639554568960" duration="3375000" />
       <workItem from="1639559673684" duration="2355000" />
       <workItem from="1639581641114" duration="5686000" />
-      <workItem from="1639657818895" duration="933000" />
+      <workItem from="1639657818895" duration="1013000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1638801912619</created>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639659055571</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="paragraph px en phone">
+      <created>1639659194387</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639659194387</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +116,7 @@
     <MESSAGE value="Finalisation du responsive .activity (phone-tablet)" />
     <MESSAGE value="Fix width responsive tablet" />
     <MESSAGE value="Fix filtre responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix filtre responsive" />
+    <MESSAGE value="paragraph px en phone" />
+    <option name="LAST_COMMIT_MESSAGE" value="paragraph px en phone" />
   </component>
 </project>
