@@ -658,10 +658,6 @@ footer
     .filter_itemTitle{
         width: 100%;
     }
-    .filter_itemTxt{
-        font-size: 10px;
-    }
-
     /* HEBERGEMENT */
 
     .block_page>section.city{
