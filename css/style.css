@@ -595,6 +595,9 @@ footer
         flex-flow: row;
         gap: 40px;
     }
+    .activity_Card--parent>a{
+        width: 50%;
+    }
     .activity_Card4--parent {
         grid-row: 4/5;
         grid-column: 1/3;
